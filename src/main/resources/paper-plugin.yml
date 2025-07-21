@@ -1,0 +1,16 @@
+name: FarmersDelight
+version: 1.1.0
+api-version: '1.21'
+description: Farming's Delight ported to Nova
+authors: [Katalijst]
+contributors: []
+website: https://atea-studio.fr/nova-addons
+prefix: FarmersDelight
+main: xyz.xenondevs.addonloader.JavaPlugin
+loader: xyz.xenondevs.addonloader.PluginLoader
+bootstrapper: xyz.xenondevs.addonloader.Bootstrapper
+dependencies:
+    bootstrap:
+        Nova: {load: BEFORE, required: true, join-classpath: true}
+    server:
+        Nova: {load: BEFORE, required: true, join-classpath: true}
